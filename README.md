@@ -6,6 +6,7 @@ https://alt-magick.github.io/Palmistry/palmistry.html
 
 
 ---
+<br>
 
 ## 📖 Full List  
 <br>
