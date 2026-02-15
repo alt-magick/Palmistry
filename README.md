@@ -99,7 +99,7 @@ When it hugs the thumb closely, that suggests a more reserved energy. You’re c
 
 **15. Short (Stops Midway)**  
 <br>
-A shorter life line does not mean a short life. It simply suggests change — movement, transitions, or a life that feels eventful and influenced by outside forces.
+A shorter life line does not mean a short life. It simply suggests change — movement, transitions, or a life that feels eventful.
 <br><br>
 
 **16. Upward Lines Branching Off**  
