@@ -1,3 +1,219 @@
-<html>
-  test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palm Reading</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --gold: #c6a75e;
+    --gold-soft: #e6d3a3;
+    --dark-bg: #0f0f0f;
+    --card-bg: #1b1b1b;
+    --text: #eaeaea;
+    --muted: #9f9f9f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top, #1a1a1a 0%, #0f0f0f 60%);
+    color: var(--text);
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 0; /* Removed extra padding */
+    margin-bottom: 20px; /* Small spacing after image */
+}
+
+header .header-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 920px;
+    margin: auto;
+    padding: 20px; /* Reduced padding to tighten layout */
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    margin: 60px 0 20px;
+    color: var(--gold);
+    border-bottom: 1px solid rgba(198,167,94,0.3);
+    padding-bottom: 10px;
+}
+
+.reading {
+    background: var(--card-bg);
+    border-radius: 16px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    border: 1px solid rgba(198,167,94,0.15);
+    transition: all 0.3s ease;
+}
+
+.reading:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 55px rgba(0,0,0,0.75);
+}
+
+.reading-header {
+    padding: 22px 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reading-header h2 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.reading-header span {
+    font-size: 22px;
+    color: var(--gold);
+    transition: transform 0.35s ease;
+}
+
+.reading-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 28px;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.reading-content p {
+    margin: 14px 0;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.reading.active .reading-content {
+    max-height: 800px;
+    padding: 10px 28px 28px;
+}
+
+.reading.active .reading-header span {
+    transform: rotate(45deg);
+}
+
+footer {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 13px;
+    color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="palm.png" alt="Palm Reading Logo" class="header-logo">
+</header>
+
+<div class="container">
+
+<!-- HEART LINE -->
+<div class="section-title">â¤ï¸ HEART LINE (1â€“6)</div>
+
+<div class="reading"><div class="reading-header"><h2>1. Ends under First Finger</h2><span>+</span></div>
+<div class="reading-content"><p>When your heart line ends under your first finger, it tells me you have really high standards in love. You donâ€™t settle easily. You have a strong vision of what a true partnership should feel like, and you hold onto that ideal.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>2. Between First and Middle Finger</h2><span>+</span></div>
+<div class="reading-content"><p>This placement shows emotional balance. Youâ€™re able to feel deeply, but you also stay grounded. You mix heart and logic really well, which makes you steady and dependable in relationships.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>3. Curved (Arches Up)</h2><span>+</span></div>
+<div class="reading-content"><p>A curved heart line like this shows warmth. Youâ€™re expressive. People usually know how you feel because youâ€™re comfortable showing it. Thereâ€™s an openness about you.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>4. Wavy (Moves Up and Down)</h2><span>+</span></div>
+<div class="reading-content"><p>When the line moves up and down like that, it tells me your emotions run in cycles. You probably experience love deeply, and there may have been several meaningful relationships that shaped you.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>5. Deep and Clear</h2><span>+</span></div>
+<div class="reading-content"><p>A deep, clear line shows strength in love. When you commit, you really commit. Youâ€™re loyal, devoted, and you donâ€™t give your heart halfway.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>6. Broken or Has Gaps</h2><span>+</span></div>
+<div class="reading-content"><p>Breaks or gaps here usually point to emotional setbacks. I see signs of heartbreak or a major emotional shift in the past â€” something that changed you, but also made you stronger.</p></div></div>
+
+
+<!-- HEAD LINE -->
+<div class="section-title">ðŸ§  HEAD LINE (7â€“11)</div>
+
+<div class="reading"><div class="reading-header"><h2>7. Straight</h2><span>+</span></div>
+<div class="reading-content"><p>A straight head line shows a practical thinker. You rely on logic. You like clear plans, clear answers, and things that make sense.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>8. Curved (Sloping Down)</h2><span>+</span></div>
+<div class="reading-content"><p>When it slopes downward, thatâ€™s creativity. You think visually and intuitively. You may have artistic ability, or at least a very imaginative mind.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>9. Long</h2><span>+</span></div>
+<div class="reading-content"><p>A long head line tells me you think deeply. You donâ€™t rush decisions. You need to understand all the angles before you move forward.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>10. Separated from the Life Line (A Gap)</h2><span>+</span></div>
+<div class="reading-content"><p>That gap at the beginning shows independence. You donâ€™t wait around for approval. You think for yourself, and you act on your own ideas.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>11. Broken or Has Gaps</h2><span>+</span></div>
+<div class="reading-content"><p>Breaks in the head line often reflect a major mental shift. A life event that changed how you think, how you see the world, or how you approach decisions.</p></div></div>
+
+<!-- LIFE LINE -->
+<div class="section-title">ðŸŒ¿ LIFE LINE (12â€“15)</div>
+
+<div class="reading"><div class="reading-header"><h2>12. Wide and Curving (Large Arc)</h2><span>+</span></div>
+<div class="reading-content"><p>A wide, curving life line shows strong vitality. You have energy. You like to be involved. You donâ€™t just sit back â€” you participate in life.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>13. Close to the Thumb (Straighter Line)</h2><span>+</span></div>
+<div class="reading-content"><p>When it hugs the thumb closely, that suggests a more reserved energy. Youâ€™re careful with your time and energy. You prefer stability and comfort.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>14. Short (Stops Midway)</h2><span>+</span></div>
+<div class="reading-content"><p>A shorter life line does not mean a short life. It simply suggests change â€” movement, transitions, or a life that feels eventful.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>15. Upward Lines Branching Off</h2><span>+</span></div>
+<div class="reading-content"><p>These upward branches are great signs. They show moments of success, opportunity, and progress. Points in life where things rise for you.</p></div></div>
+
+<!-- DESTINY LINE -->
+<div class="section-title">ðŸª DESTINY LINE (16â€“18)</div>
+
+<div class="reading"><div class="reading-header"><h2>16. Faint, Shallow, or Absent</h2><span>+</span></div>
+<div class="reading-content"><p>If this line is faint or missing, it doesnâ€™t mean anything negative. It actually suggests flexibility. Your life path is shaped more by your choices than by fate.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>17. Starts at the Base of the Palm (Wrist)</h2><span>+</span></div>
+<div class="reading-content"><p>When it starts at the base of the palm, thatâ€™s the mark of a self-starter. You build your own direction. You donâ€™t wait for life to hand it to you.</p></div></div>
+
+<div class="reading"><div class="reading-header"><h2>18. Ends under the Middle Finger (Saturn)</h2><span>+</span></div>
+<div class="reading-content"><p>Ending under the middle finger is a strong finish. It points toward long-term stability, responsibility, and real achievement over time.</p></div></div>
+
+</div>
+
+<footer>
+Â© 2026 Palm Reading
+</footer>
+
+<script>
+const readings = document.querySelectorAll('.reading');
+readings.forEach(reading => {
+    const header = reading.querySelector('.reading-header');
+    header.addEventListener('click', () => {
+        readings.forEach(r => {
+            if (r !== reading) r.classList.remove('active');
+        });
+        reading.classList.toggle('active');
+    });
+});
+</script>
+
+</body>
 </html>
+
