@@ -7,90 +7,48 @@ https://alt-magick.github.io/Palmistry/palmistry.html
 
 ---
 
-## 🕺 Features
-- 🧠 19 handcrafted palmistry questions<br>
-
-- 🔁 Optional randomization (`-r`) to shuffle the deck<br>
-
-- 🕊️ Skip mode (`-k`) to review content without pressure<br>
-
-- 🧮 Fuzzy matching via **Jaccard similarity** (75% required to pass)<br>
-
-- 💥 One wrong answer = Full restart (basic mode only!)
-
----
-
-## 🔧 How to Build
-
-Make sure you have a **C++17+** compiler installed.
-
-### 🛠️ Compile it:
-
-g++ -std=c++17 -o palmistry_quiz palmistry.cpp
-
-🚀 Run it:
-
-./palmistry_quiz
-
-
----
-
-⚙️ CLI Options
-<br><br>
-Flag	Mode
-<br><br>
--r	🎲 Random Mode	Randomizes question order
-<br><br>
--k	🧘 Skip Mode	Shows answers without checking for correctness
-<br><br>
-None  ✨ Basic Mode	Default strict mode — miss one, restart the quiz!
-
-
-
----
-
-## 📖 Full Question & Answer List  
+## 📖 Full List  
 <br>
-Here’s the complete list of all 19 palmistry interpretations included in the quiz:
+Here’s the complete list of all 19 palmistry interpretations:
 
 <br><br>
 
 ### ❤️ HEART LINE (1–7)  
 <br>
 
-**1. Goal in Love – Ends under First Finger**  
+**1. Ends under First Finger**  
 <br>
-You hold high hopes for love. You have big ideals and a nearly perfect vision for what a true partnership should be.  
+When your heart line ends under your first finger, it tells me you have really high standards in love. You don’t settle easily. You have a strong vision of what a true partnership should feel like, and you hold onto that ideal.
 <br><br>
 
-**2. Goal in Love – Between First and Middle Finger**  
+**2. Between First and Middle Finger**  
 <br>
-You've found a great emotional balance. You are able to mix your deep feelings with common sense, making you a thoughtful and stable partner.  
+This placement shows emotional balance. You’re able to feel deeply, but you also stay grounded. You mix heart and logic really well, which makes you steady and dependable in relationships.
 <br><br>
 
-**3. Expression – Curved (Arches Up)**  
+**3. Curved (Arches Up)**  
 <br>
-You are warm, friendly, and naturally expressive. You find it easy and comfortable to show the world how you truly feel.  
+A curved heart line like this shows warmth. You’re expressive. People usually know how you feel because you’re comfortable showing it. There’s an openness about you.
 <br><br>
 
-**4. Expression – Wavy (Moves Up and Down)**  
+**4. Wavy (Moves Up and Down)**  
 <br>
-Your feelings can shift or change often, which suggests you may go through many significant relationships during your life.  
+When the line moves up and down like that, it tells me your emotions run in cycles. You probably experience love deeply, and there may have been several meaningful relationships that shaped you.
 <br><br>
 
-**5. Condition – Deep and Clear**  
+**5. Deep and Clear**  
 <br>
-This shows you have great strength for loyalty and deep, lasting commitment. When you love, you are all in.  
+A deep, clear line shows strength in love. When you commit, you really commit. You’re loyal, devoted, and you don’t give your heart halfway.
 <br><br>
 
-**6. Condition – Broken or Has Gaps**  
+**6. Broken or Has Gaps**  
 <br>
-I see a history of emotional setbacks here. This marks past heartbreak, separation, or a significant loss you've had to overcome.  
+Breaks or gaps here usually point to emotional setbacks. I see signs of heartbreak or a major emotional shift in the past — something that changed you, but also made you stronger.
 <br><br>
 
-**7. Uncommon Marks – Small Forks Upward**  
+**7. Small Forks Upward**  
 <br>
-This is a great sign! It shows emotional balance and a lot of happiness or peace in your love life.  
+These little upward forks are beautiful to see. They show balance and emotional growth. There’s happiness here — the kind that comes from learning and maturing in love. 
 <br><br>
 
 ---
@@ -98,29 +56,29 @@ This is a great sign! It shows emotional balance and a lot of happiness or peace
 ### 🧠 HEAD LINE (8–12)  
 <br>
 
-**8. Thinking Style – Straight**  
+**8. Straight**  
 <br>
-Your mind is highly logical and practical. You rely on facts, common sense, and clear, careful plans to solve problems.  
+A straight head line shows a practical thinker. You rely on logic. You like clear plans, clear answers, and things that make sense.
 <br><br>
 
-**9. Thinking Style – Curved (Sloping Down)**  
+**9. Curved (Sloping Down)**  
 <br>
-You have a deeply creative and imaginative mind. You use intuition and new ideas to solve problems, and this may indicate artistic talents.  
+When it slopes downward, that’s creativity. You think visually and intuitively. You may have artistic ability, or at least a very imaginative mind.
 <br><br>
 
-**10. Depth of Focus – Long**  
+**10. Long**  
 <br>
-You are a deep, detailed thinker. You need to analyze all the information and details before you are comfortable making a move.  
+A long head line tells me you think deeply. You don’t rush decisions. You need to understand all the angles before you move forward.
 <br><br>
 
-**11. Independence – Separated from the Life Line (A Gap)**  
+**11. Separated from the Life Line (A Gap)**  
 <br>
-You are a fiercely independent thinker. You are bold, confident, and you make your own plans quickly without needing permission.  
+That gap at the beginning shows independence. You don’t wait around for approval. You think for yourself, and you act on your own ideas.
 <br><br>
 
-**12. Clarity and Stress – Broken or Has Gaps**  
+**12. Broken or Has Gaps**  
 <br>
-This points to a period of mental interruption or a major shift in the way you think, often caused by a significant life change.  
+Breaks in the head line often reflect a major mental shift. A life event that changed how you think, how you see the world, or how you approach decisions.
 <br><br>
 
 ---
@@ -128,24 +86,24 @@ This points to a period of mental interruption or a major shift in the way you t
 ### 🌿 LIFE LINE (13–16)  
 <br>
 
-**13. Energy and Stamina – Wide and Curving (Large arc)**  
+**13. Wide and Curving (Large arc)**  
 <br>
-You have high energy, strong vitality, and great enthusiasm for life. You are outgoing and active.  
+A wide, curving life line shows strong vitality. You have energy. You like to be involved. You don’t just sit back — you participate in life.
 <br><br>
 
-**14. Energy and Stamina – Close to the Thumb (Straighter Line)**  
+**14. Close to the Thumb (Straighter Line)**  
 <br>
-This suggests a more cautious and reserved nature. You prefer routine, quiet time, and may have lower physical energy reserves.  
+When it hugs the thumb closely, that suggests a more reserved energy. You’re careful with your time and energy. You prefer stability and comfort.
 <br><br>
 
-**15. Life Experiences – Short (Stops Midway)**  
+**15. Short (Stops Midway)**  
 <br>
-This is a common line and it absolutely does not mean a short life. It suggests your life is dynamic and feels full of frequent changes or that you are easily influenced by outside events.  
+A shorter life line does not mean a short life. It simply suggests change — movement, transitions, or a life that feels eventful and influenced by outside forces.
 <br><br>
 
-**16. Changes and Challenges – Upward Lines Branching Off**  
+**16. Upward Lines Branching Off**  
 <br>
-These are wonderful! These small lines pointing up are positive signs of success, achievement, or major opportunities at that point in your life.  
+These upward branches are great signs. They show moments of success, opportunity, and progress. Points in life where things rise for you.
 <br><br>
 
 ---
@@ -153,18 +111,18 @@ These are wonderful! These small lines pointing up are positive signs of success
 ### 🪄 DESTINY LINE (17–19)  
 <br>
 
-**17. Appearance – Faint, Shallow, or Absent**  
+**17. Faint, Shallow, or Absent**  
 <br>
-This does not mean failure. It means your path is more driven by free will and personal choices than a fixed destiny. You're adaptable and can find fulfillment anywhere!  
+If this line is faint or missing, it doesn’t mean anything negative. It actually suggests flexibility. Your life path is shaped more by your choices than by fate.
 <br><br>
 
-**18. Source of Influence – Starts at the Base of the Palm (Wrist)**  
+**18. Starts at the Base of the Palm (Wrist)**  
 <br>
-You are a self-made individual who establishes a clear life path early and independently.  
+When it starts at the base of the palm, that’s the mark of a self-starter. You build your own direction. You don’t wait for life to hand it to you.
 <br><br>
 
-**19. Culmination – Ends under the Middle Finger (Saturn)**  
+**19. Ends under the Middle Finger (Saturn)**  
 <br>
-This is the ideal finish, indicating long-term stability, success, and high professional achievement.  
+Ending under the middle finger is a strong finish. It points toward long-term stability, responsibility, and real achievement over time.
 <br><br>
 
