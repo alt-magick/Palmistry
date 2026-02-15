@@ -1,6 +1,8 @@
 # ✋ Palmistry 
 
-A command-line program that helps you master palm readings.
+A website for this is online at:
+
+https://alt-magick.github.io/Palmistry/palmistry.html
 
 
 ---
